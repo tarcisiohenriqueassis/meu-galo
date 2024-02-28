@@ -115,4 +115,24 @@ header .galo_logo_colorido img{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-
+footer{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+footer .container_adicionar_raca{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 17px;
+    border-radius: 28px;
+    color: #ffff;
+    background-color: #00c900;
+    font-weight: 700;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
