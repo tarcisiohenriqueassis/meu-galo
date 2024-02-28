@@ -74,15 +74,19 @@ header .galo_logo_colorido img{
     margin-top: 2rem;
 }
 .container_cards .cards_1,.cards_2,.cards_3,.cards_4{
+    display: flex;
     width: 18rem;
     height: 21rem;
     border: 8px solid #939393;
     background-color: #000000d4;
     color: #fbe010;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     font-size: medium;
     letter-spacing: 4px;
     border-radius: 10px;
+    padding-bottom: 15px;
 }
 .container_cards .fotosraca{
     width: 98%;
