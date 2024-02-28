@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    outline: 0px;
+}
+
+header{
+    width:100% ;
+    height: 11rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgba(242, 196, 28, 0.668);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+header img{
+    width: 7rem;
+    height: 7rem;
+}
+header h1{
+    font-size: 3rem;
+}
+header .galo_logo_colorido img{
+    width: 8rem;
+    height: 11rem;
+    display: flex;
+    align-items: flex-end;
+    object-fit: cover;
+}
+.barra_pesquisa_topo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 26px 0px 0px;
+}
+.barra_pesquisa_topo form{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.barra_pesquisa_topo .input_pesquisar{
+    display: flex;
+    width: 500px;
+    max-width: 643px;
+    height: 17px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 9px;
+    border: none;
+}
+.lupa_pesquisar{
+    display: flex;
+    width: 42px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    transform: translateX(-44px) translateY(3px);
+}
+.lupa_pesquisar img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+.container_cards .cards_1,.cards_2,.cards_3,.cards_4{
+    width: 18rem;
+    height: 21rem;
+    border: 8px solid #939393;
+    background-color: #000000d4;
+    color: #fbe010;
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 4px;
+    border-radius: 10px;
+}
+.container_cards .fotosraca{
+    width: 98%;
+    height: 14rem;
+    border: 2px solid #ededed;
+    box-shadow: 0px 2px 4px 0px #ffffffa8;
+    border-radius: 3px;
+}
+.container_cards .cards_1 .fotosraca{
+    background-image: url(../img/galo_2.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container_cards .cards_2 .fotosraca{
+    background-image: url(../img/galo_3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container_cards .cards_3 .fotosraca{
+    background-image: url(../img/galo_4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container_cards .cards_4 .fotosraca{
+    background-image: url(../img/galo_1.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
