@@ -41,6 +41,11 @@ header .galo_logo_colorido img{
     border: 1px solid black;
     border-radius: 25px;
 }
+.barra_pesquisa_topo form:hover{
+    border: 5px solid greenyellow;
+   border-radius: 25px;
+   transition: 170ms;
+}
 .barra_pesquisa_topo .input_pesquisar{
     display: flex;
     width: 500px;
