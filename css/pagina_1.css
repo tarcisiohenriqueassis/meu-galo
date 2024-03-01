@@ -137,7 +137,12 @@ footer .container_adicionar_raca{
     background-color: #00c900;
     font-weight: 700;
 }
+.container_adicionar_raca:hover, a:hover{
+    background-color: rgb(52, 51, 51);
+    color:#00c900
+}
 footer a{
     text-decoration: none;
     color: #fff;
 }
+
