@@ -42,7 +42,7 @@ header .galo_logo_colorido img{
     border-radius: 25px;
 }
 .barra_pesquisa_topo form:hover{
-    border: 5px solid greenyellow;
+    border:2px solid greenyellow;
    border-radius: 25px;
    transition: 170ms;
 }
@@ -58,6 +58,10 @@ header .galo_logo_colorido img{
     letter-spacing: 9px;
     border: none;
 }
+::placeholder{
+    color: #0a0a0ac7;
+    font-size: 15px;
+}
 .lupa_pesquisar{
     display: flex;
     width: 42px;
@@ -66,11 +70,12 @@ header .galo_logo_colorido img{
     background-color: transparent;
     transform: translateX(-44px) translateY(3px);
 }
-.lupa_pesquisar img {
+.lupa_pesquisar .iconPesquisa {
     display: flex;
     width: 100%;
     height: 100%;
 }
+
 .container_cards{
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +136,7 @@ footer{
 }
 footer .container_adicionar_raca{
     border: 2px solid rgb(0, 0, 0);
-    padding: 17px;
+    padding: 7px 7px;
     border-radius: 28px;
     color: #ffff;
     background-color: #00c900;
@@ -146,3 +151,9 @@ footer a{
     color: #fff;
 }
 
+@media (max-width:586px){
+    .diamanteBlack{
+        display: none;
+    }
+    
+}
