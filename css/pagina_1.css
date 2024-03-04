@@ -38,6 +38,7 @@ header .galo_logo_colorido img{
 }
 .barra_pesquisa_topo form{
     display: flex;
+    width: 340px;
     border: 1px solid black;
     border-radius: 25px;
 }
@@ -57,6 +58,7 @@ header .galo_logo_colorido img{
     text-align: center;
     letter-spacing: 9px;
     border: none;
+    -ms-zoom: 0%;
 }
 ::placeholder{
     color: #0a0a0ac7;
