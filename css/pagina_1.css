@@ -38,7 +38,8 @@ header .galo_logo_colorido img{
 }
 .barra_pesquisa_topo form{
     display: flex;
-    width: 340px;
+    width: 500px;
+    margin: 0px 15px;
     border: 1px solid black;
     border-radius: 25px;
 }
@@ -155,6 +156,9 @@ footer a{
 
 @media (max-width:586px){
     .diamanteBlack{
+        display: none;
+    }
+    .lupa_pesquisar .iconPesquisa{
         display: none;
     }
     
