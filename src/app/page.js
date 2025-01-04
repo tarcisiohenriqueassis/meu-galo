@@ -8,6 +8,7 @@ import CardGalo from "./Componentes/CardGalo/cardGalo.jsx";
 export default function Home() {
   return (
       <main className={styles.main}>
+        
        <section className={styles.containerSecaoCardGalos}>   
          {Galos.map((galo)=>{
            return <CardGalo nome={galo.nome} raça={galo.raça} numeroRegistro={galo.numeroRegistro} imagem={galo.imagem} alt={galo.alt}  />
