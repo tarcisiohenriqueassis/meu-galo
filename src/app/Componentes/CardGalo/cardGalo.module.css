@@ -10,6 +10,8 @@
     border-radius: 5px;
     align-content: flex-start;
     margin:6px 6px;
+    font-family: monospace;
+    background-color: #fff;
 }
 .containerGlobalCard:hover{
     transform: translateY(-5px);
@@ -23,7 +25,7 @@
     height: -webkit-fill-available;
     object-fit: cover;
     object-position: top;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 4px;
 }
 .containerInformaçoesGalo{
     width: 100%;
